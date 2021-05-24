@@ -1,0 +1,125 @@
+.bodycriarvaquinha {
+    width: 100%;
+    height: 1080px;
+    position: absolute;
+}
+
+.bodycriarvaquinha .bodycriarvaquinha-img {
+    width: 100%;
+    height: 1080px;
+    position: absolute;
+    opacity: .7;
+    z-index: -1;
+    background: url("../../images/uniao.jpg");
+}
+
+.bodycriarvaquinha-content {
+    background-color: #004040;
+    position: relative;
+    z-index: 5;
+    width: 500px;
+    height: 400px;
+    margin: 80px auto;
+}
+
+.bodycriarvaquinha-content-title {
+    position: relative;
+    margin: 0 auto;
+    width: 250px;
+    height: 60px;
+}
+
+.bodycriarvaquinha-content-title label {
+    position: absolute;
+    margin-left: -128px;
+    margin-top: 25px;
+    font-size: xx-large;
+    color: #ffffff;
+}
+
+.bodycriarvaquinha-content-titulo {
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 60px;
+}
+
+.bodycriarvaquinha-content-titulo #inputTituloCriar {
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+    border: none;
+	border-radius: 30px;
+    text-align: center;
+}
+
+.bodycriarvaquinha-content-descricao {
+    position: relative;
+    margin: -20px auto;
+    width: 400px;
+    height: 60px;
+}
+
+.bodycriarvaquinha-content-descricao #inputDescricaoCriar {
+    width: 300px;
+    height: 30px;
+    border: none;
+	border-radius: 30px;
+    text-align: center;
+}
+
+.bodycriarvaquinha-content-valor {
+    position: relative;
+    margin: 10px auto;
+    width: 400px;
+    height: 60px;
+}
+
+.bodycriarvaquinha-content-valor #inputValorCriar {
+    width: 300px;
+    height: 30px;
+    border: none;
+	border-radius: 30px;
+    text-align: center;
+}
+
+.bodycriarvaquinha-content-img {
+    position: relative;
+    margin: 10px auto;
+    width: 400px;
+    height: 60px;
+}
+
+.bodycriarvaquinha-content-img label {
+    width: 300px;
+    height: 30px;
+    border: none;
+	border-radius: 30px;
+    text-align: center;
+}
+
+.bodycriarvaquinha-content-img input {
+    margin: 15px auto;
+    margin-left: 80px;
+}
+
+.bodycriarvaquinha-content-criar {
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 60px;
+}
+
+.bodycriarvaquinha-content-criar #inputButtonCriar {
+	height: 40px;
+	width: 180px;
+	color: #ffffff;
+	background-color: #008080;
+	border: none;
+	border-radius: 30px;
+}
+
+.bodycriarvaquinha-content-criar #inputButtonCriar:hover {
+	background-color: #015555;
+	cursor: pointer;
+}

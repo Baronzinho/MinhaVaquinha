@@ -1,0 +1,38 @@
+.body-vaquinha-lista {
+    background-color: #004040;
+    width: 1200px;
+    height: 100px;
+    margin: 50px 0 0 350px;
+}
+
+.body-vaquinha-lista img {
+    height: 100%;
+    width: 150px;
+    float: left;
+}
+
+.body-vaquinha-content {
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+.body-vaquinha-titulo {
+    color: #ffffff;
+}
+
+.body-vaquinha-descricao {
+    color: #ffffff;
+}
+
+.body-vaquinha-data {
+    float: right;
+    width: 500px;
+}
+
+.body-vaquinha-data-title {
+    color: #ffffff;
+}
+
+.body-vaquinha-data-value {
+    color: #ffffff;
+}

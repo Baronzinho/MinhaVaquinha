@@ -1,0 +1,32 @@
+.body-vaquinha {
+    position: absolute;
+    width: 500px;
+    height: 520px;
+    background-color: #004040;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.body-vaquinha img {
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+}
+
+.body-vaquinha p {
+    color: #ffffff;
+}
+
+.body-vaquinha .body-vaquinha-titulo {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.body-vaquinha a {
+    color: #ffffff;
+}
+
+.body-vaquinha progress {
+    width: 240px;
+    height: 20px;
+}

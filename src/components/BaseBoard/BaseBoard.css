@@ -1,0 +1,27 @@
+.baseboard-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #044040;
+}
+
+.baseboard-content img {
+    width: 150px;
+    height: 150px;
+    margin: 25px 0 0 0;
+}
+
+.baseboard-content .baseboard-content-title-01 {
+    float: left;
+    color: #ffffff;
+    font-size: larger;
+    margin: 100px 0 -200px 600px;
+}
+
+.baseboard-content .baseboard-content-title-02 {
+    position: absolute;
+    color: #ffffff;
+    font-size: larger;
+    margin: 100px 0 0 100px;
+}

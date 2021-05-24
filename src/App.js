@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+import React from 'react';
+import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom';
 import './App.css';
+import Header from './components/Header/Header';
+import Body from './components/Body/Body';
+import BodyLogar from './components/BodyLogar/BodyLogar';
+import BodyCadastrar from './components/BodyCadastrar/BodyCadastrar';
+import BodyCriarVaquinha from './components/BodyCriarVaquinha/BodyCriarVaquinha';
+import BaseBoard from './components/BaseBoard/BaseBoard';
+import BodyExplorar from './components/BodyExplorar/BodyExplorar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header></Header>
+        <Switch>
+          <Route path="/" exact>
+            <Body></Body>
+          </Route>
+          <Route path="/logar" exact>
+            <BodyLogar></BodyLogar>
+          </Route>
+          <Route path="/cadastrar" exact>
+            <BodyCadastrar></BodyCadastrar>
+          </Route>
+          <Route path="/criarvaquinha" exact>
+            <BodyCriarVaquinha></BodyCriarVaquinha>
+          </Route>
+          <Route path="/explorar" exact>
+            <BodyExplorar></BodyExplorar>
+          </Route>
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 
