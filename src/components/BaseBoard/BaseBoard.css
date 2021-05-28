@@ -1,9 +1,10 @@
 .baseboard-content {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 200px;
     background-color: #044040;
+    margin-top: auto;
 }
 
 .baseboard-content img {

@@ -21,7 +21,6 @@ const BodyLogar = () => {
                     <input type="button" id="inputButtonEsqueciSenha" value="Esqueceu sua senha?"/>
                 </div>
             </div>
-            <BaseBoard></BaseBoard>
         </div>
     );
 }
