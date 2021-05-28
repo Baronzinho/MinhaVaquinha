@@ -27,7 +27,6 @@ const BodyCriarVaquinha = () => {
                     <input type="button" id="inputButtonCriar" value="Criar Vaquinha"/>
                 </div>
             </div>
-            <BaseBoard></BaseBoard>
         </div>
     );
 }

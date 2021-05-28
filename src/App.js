@@ -31,6 +31,7 @@ function App() {
             <BodyExplorar></BodyExplorar>
           </Route>
         </Switch>
+        <BaseBoard></BaseBoard>
       </div>
     </BrowserRouter>
   );

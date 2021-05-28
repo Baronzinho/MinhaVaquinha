@@ -31,7 +31,6 @@ const BodyExplorar = () => {
                 descricao="Necessitamos de uma Doação para ajudar com os custos da cirurgia."
                 valorDesejado="1.000" valorAtingido="0.150"></BodyVaquinhaLista>
             </div>
-            <BaseBoard></BaseBoard>
         </div>
     );
 }

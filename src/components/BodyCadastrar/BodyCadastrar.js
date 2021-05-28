@@ -26,7 +26,6 @@ const BodyCadastrar = () => {
                     <input type="button" id="inputButtonCadastrar" value="Cadastrar"/>
                 </div>
             </div>
-            <BaseBoard></BaseBoard>
         </div>
     );
 }
